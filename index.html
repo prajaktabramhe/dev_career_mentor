@@ -73,9 +73,9 @@ h1 .grad{background:linear-gradient(90deg,#4cc9f0,#4361ee,#7209b7,#f72585);-webk
 .popular-tag{position:absolute;top:0;left:50%;transform:translateX(-50%);background:linear-gradient(90deg,#f8c537,#f97316);color:#000;font-size:10px;font-weight:800;padding:4px 20px;border-radius:0 0 12px 12px;letter-spacing:0.08em;text-transform:uppercase;white-space:nowrap}
 
 .plan-icon{font-size:36px;margin-bottom:12px;display:block}
-.plan-tier{font-family:'Syne',sans-serif;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.12em;margin-bottom:6px}
+.plan-tier{font-family:'Syne',sans-serif;font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:0.12em;margin-bottom:6px}
 .basic .plan-tier{color:var(--cyan)}.silver .plan-tier{color:var(--silver)}.gold .plan-tier{color:var(--gold)}
-.plan-name{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;margin-bottom:8px}
+.plan-name{font-family:'Syne',sans-serif;font-size:15px;font-weight:800;margin-bottom:8px}
 .plan-tagline{font-size:12.5px;color:var(--muted);margin-bottom:20px;line-height:1.5}
 
 .price-old{font-size:12px;color:var(--muted);text-decoration:line-through;margin-bottom:4px}
@@ -248,8 +248,6 @@ Practice real frontend interviews and improve your confidence.
 </div>
 
 <span class="price-save">5 Mock Interviews</span>
-    <div class="plan-name">Success Fee</div>
-      <span class="price-save">₹5,000 only after placement</span>
 <div class="duration-badge">
 🎯 <span>Guidance and Mock Interviews from Industry Experts.</span>
 </div>
@@ -267,17 +265,16 @@ Practice real frontend interviews and improve your confidence.
 <li><span class="chk">✓</span> Resume Suggestions</li>
 
 </ul>
-
-<button class="plan-btn"
-onclick="alert('Redirecting to payment for Mock Interview Plan – ₹500')">
-Start Mock Interview
-</button>
+<a href="https://chat.whatsapp.com/EoAbv1AT7T7G0UHGKVPzyk" target="_blank">
+  <button class="plan-btn">Start Mock Interview</button>
+</a>
 
 </div>
     <!-- BASIC -->
     <div class="plan basic">
-      <span class="plan-icon">🚀</span>
-      <div class="plan-tier">Starter</div>
+    <div class="plan-head">
+        🚀 <span class="plan-tier">Basic</span>
+     </div>
       <div class="plan-name">Career Starter</div>
       <div class="plan-tagline">Get started with guided mentorship and job-ready essentials.</div>
       <div class="price-old">₹6,999</div>
@@ -285,7 +282,7 @@ Start Mock Interview
       <span class="price-save">You save ₹4,000 🎉</span>
          <div class="plan-name">Success Fee</div>
       <span class="price-save">₹5,000 only after placement</span>
-      <div class="duration-badge">📅 <span>Duration: <strong>3 Months</strong> · Starts anytime</span></div>
+      <div class="duration-badge">📅 <span>Duration: <strong>2 Months</strong> · Starts anytime</span></div>
       <div class="plan-divider"></div>
       <ul class="feat-list">
         <li><span class="chk">✓</span> ATS-Optimised Resume Building</li>
@@ -296,18 +293,21 @@ Start Mock Interview
         <li><span class="chk">✓</span> Naukri & LinkedIn Profile, GitHub Guidance</li>
         <li><span class="chk">✓</span> Email Support (Weekdays)</li>
       </ul>
-      <button class="plan-btn" onclick="alert('Redirecting to payment for Basic Plan — ₹6,999')">Get Started — ₹6,999</button>
+     <a href="https://chat.whatsapp.com/EoAbv1AT7T7G0UHGKVPzyk" target="_blank">
+  <button class="plan-btn">Get Started — ₹6,999</button>
+</a>
     </div>
 
     <!-- SILVER -->
     <div class="plan silver">
-      <span class="plan-icon">🥈</span>
-      <div class="plan-tier">Professional</div>
+      <div class="plan-head">
+        🥈 <span class="plan-tier">Silver</span>
+      </div>
       <div class="plan-name">Career Accelerator</div>
       <div class="plan-tagline">For serious learners ready to ace interviews and build a standout portfolio.</div>
       <div class="price-old">₹11,999</div>
       <div class="price-row"><span class="price-currency">₹</span><span class="price-amount">7,999</span><span class="price-period">/ 3 months</span></div>
-      <span class="price-save">You save ₹5,000 🎉</span>
+      <span class="price-save">You save ₹4,000 🎉</span>
         <div class="plan-name">Success Fee</div>
       <span class="price-save">₹5,000 only after placement</span>
       <div class="duration-badge">📅 <span>Duration: <strong>3 Months</strong> · Starts anytime</span></div>
@@ -321,14 +321,19 @@ Start Mock Interview
         <li><span class="chk">✓</span> javascript and React.js Deep Dive + Architecture</li>
         <li><span class="chk">✓</span> weekly Doubt Sessions</li>
       </ul>
-      <button class="plan-btn" onclick="alert('Redirecting to payment for Silver Plan — ₹11,999')">Upgrade to Silver — ₹6,999</button>
+     
+    <a href="https://chat.whatsapp.com/EoAbv1AT7T7G0UHGKVPzyk" target="_blank">
+  <button class="plan-btn">🚀 Go Silver — ₹7,999</button>
+</a>
     </div>
 
     <!-- GOLD -->
     <div class="plan gold">
       <div class="popular-tag">⭐ Most Popular</div>
-      <span class="plan-icon" style="margin-top:18px;display:block">👑</span>
-      <div class="plan-tier">Elite</div>
+      <div class="plan-head">
+        👑 <span class="plan-tier">Gold</span>
+      </div>
+
       <div class="plan-name">Career Elite</div>
       <div class="plan-tagline">Complete career transformation — from coder to confident engineer.</div>
       <div class="price-old">₹25,000</div>
@@ -351,7 +356,9 @@ Start Mock Interview
         <li class="extra"><span class="chk">★</span> Weekly Performance Check-in</li>
         <li class="extra"><span class="chk">★</span> 7-Day Priority Chat Support</li>
       </ul>
-      <button class="plan-btn" onclick="alert('Redirecting to payment for Gold Plan — ₹21,000')">🚀 Go Gold — ₹15,000</button>
+      <a href="https://chat.whatsapp.com/EoAbv1AT7T7G0UHGKVPzyk" target="_blank">
+       <button class="plan-btn">🚀 Go Gold — ₹15,000</button>
+      </a>
     </div>
 
   </div>
